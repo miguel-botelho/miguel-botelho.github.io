@@ -112,6 +112,31 @@ body {
     border-radius: 4px;
 }
 }
+
+.projects {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.slideanim .t {
+	vertical-align: middle;
+}
+
+.projects > img {
+position: absolute;
+left: 50%;
+top: 50%;
+
+-webkit-transform:translate(-50%, -50%);
+-moz-transform:translate(-50%, -50%);
+-ms-transform:translate(-50%, -50%);
+-o-transform:translate(-50%, -50%);
+transform:translate(-50%, -50%);
+}
 /*-- link-effect --*/
 /* Link Effect: borders slight translate */
 .link-effect a {
@@ -166,7 +191,7 @@ body {
 }
 /*-- /link-effect --*/
 .banner {
-	background:url(../images/banner.jpg) no-repeat;
+	background:url(../images/background.jpg) no-repeat;
 	background-position:center;
 	background-size:cover;
 	-webkit-background-size:cover;
