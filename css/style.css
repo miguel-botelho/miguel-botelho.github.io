@@ -122,6 +122,10 @@ body {
   vertical-align: middle;
 }
 
+.slideanim {
+	vertical-align: middle;
+}
+
 .projects > img {
 position: absolute;
 left: 50%;
