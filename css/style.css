@@ -122,8 +122,10 @@ body {
   vertical-align: middle;
 }
 
-.slideanim .t {
-	vertical-align: middle;
+.projects img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .projects > img {
