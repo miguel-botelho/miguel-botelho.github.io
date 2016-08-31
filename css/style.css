@@ -127,6 +127,11 @@ body {
 	vertical-align: middle;
 }
 
+.projects img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
 .projects > img {
 position: absolute;
 left: 50%;
