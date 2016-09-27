@@ -309,6 +309,7 @@ img.img-responsive {
 }
 .mydetails {
 	padding:6.3em 0;
+	color: #173e43;
 }
 .mydetails h3 {
 	color:#000;
@@ -975,9 +976,11 @@ footer span.glyphicon.glyphicon-chevron-up {
 }
 .mydetails h3 {
 	font-size:18px;
+	color: #fae596;
 }
 .mydetails p {
     font-size: 16px;
+	color: #fae596;
 }
 .about-me .myskills h3.text-center {
     padding: 0px 0 0px;
