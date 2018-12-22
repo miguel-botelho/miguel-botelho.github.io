@@ -1,458 +1,232 @@
-<!--Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117098839-2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-117098839-2');
-    </script>
-
-    <title>Miguel Botelho</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Miguel Botelho, Personal Page, tomislaaaav" />
-    <meta name="description" content="Miguel Botelho's personal page">
-    <meta name="author"  content="Miguel Botelho with the help of W3 Layouts">
-
-    <!-- css files -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/cobox.css" rel="stylesheet" type="text/css">
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="css/portfolio.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/personalpage.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/mems.css" rel="stylesheet" type="text/css" media="all">
-    <link rel='shortcut icon' type='image/x-icon' href='/images/favicon.png' />
-    <!-- /css files -->
-
-    <!-- font links -->
-    <link href='//fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
-    <!-- /font links -->
-
-    <!-- js files -->
-    <script src="js/modernizr.custom.js"></script>
-    <!-- /js files -->
+    <title>Miguel Botelho</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-    <div class="navbar-wrapper">
-        <div class="container">
-            <nav class="navbar navbar-inverse navbar-static-top">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                            aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse navbar-right">
-                        <ul class="nav navbar-nav link-effect">
-                            <li class="active">
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#about">About</a>
-                            </li>
-                            <li>
-                                <a href="#portfolio">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-        </div>
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
-    <!-- Banner -->
-    <div class="banner">
-        <ul class="rslides" id="slider">
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
             <li>
-                <div class="banner-info">
-                    <h3>
-                        <b>M</b>iguel
-                        <b>B</b>otelho</h3>
-                    <span class="line1"></span>
-                </div>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
             </li>
         </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Miguel Botelho</h1>
+            <h2>Software Engineer</h2>
+            <a href="/files/cv.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
     </div>
-    <!-- /Banner -->
-    <!-- About -->
-    <div class="about-me" id="about">
-        <h3 class="head-title text-center slideanim">About Me</h3>
+    <!-- End #lead -->
+
+    <div id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-xs-12">
-                    <div class="mydetails slideanim text-center">
-                        <img class="img-responsive" src="images/avatar.jpg" alt="Generic placeholder image" width="200"
-                            height="200">
-                        <h3 class="title">Miguel Botelho</h3>
-                        <p class="text-center">Software Engineer</p>
-                        <div class="social">
-                            <a href="https://www.facebook.com/miguel.botelho.79">
-                                <i class="fa fa-facebook fa-2x fa-fw" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://github.com/tomislaaaav">
-                                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/miguel-botelho-15189610a">
-                                <i class="fa fa-linkedin fa-2x fa-fw" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://plus.google.com/115600924344514111982/about">
-                                <i class="fa fa-google-plus fa-2x fa-fw" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
                 </div>
-                <div class="col-md-8 col-xs-12">
-                    <div class="col-md-12 col-xs-12">
-                        <div class="myskills slideanim">
-                            <h3 class="title text-center">Biography</h3>
-                            <p class="text-justify">Hello, my name is Miguel Botelho and i am currently working as a
-                                Junior Software Engineer @ Talkdesk.
-                                I'm a part of a hard-working team that mainly deals with external systems and
-                                communication from different internal
-                                systems to those same external ones. I am an enthusiastic engineer who likes to develop
-                                software and solutions that tailor different people and make a change in the world.
-                                Feel
-                                free to check my CV and my Github where you can learn more about my past projects and
-                                experiences.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-xs-12">
-                        <div id="skillTable" class="myskills slideanim">
-                            <h3 class="title text-center">My Skill Info</h3>
-                            <div class="skill-info">
-                                <div class="table-responsive">
-                                    <table class="table">
-                                        <tbody>
-                                            <tr>
-                                                <td>
-                                                    <h4>NodeJS</h4>
-                                                </td>
-                                                <td>
-                                                    <span class="longline5"></span>
-                                                    <span class="shortline5"></span>
-                                                </td>
-                                                <td>
-                                                    <p>Working Knowledge</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h4>JavaScript</h4>
-                                                </td>
-                                                <td>
-                                                    <span class="longline5"></span>
-                                                    <span class="shortline5"></span>
-                                                </td>
-                                                <td>
-                                                    <p>Working Knowledge</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h4>Java</h4>
-                                                </td>
-                                                <td>
-                                                    <span class="longline5"></span>
-                                                    <span class="shortline5"></span>
-                                                </td>
-                                                <td>
-                                                    <p>Working knowledge</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h4>SQL</h4>
-                                                </td>
-                                                <td>
-                                                    <span class="longline5"></span>
-                                                    <span class="shortline5"></span>
-                                                </td>
-                                                <td>
-                                                    <p>Working knowledge</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h4>HTML</h4>
-                                                </td>
-                                                <td>
-                                                    <span class="longline5"></span>
-                                                    <span class="shortline5"></span>
-                                                </td>
-                                                <td>
-                                                    <p>Working Knowledge</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h4>Android</h4>
-                                                </td>
-                                                <td>
-                                                    <span class="longline5"></span>
-                                                    <span class="shortline5"></span>
-                                                </td>
-                                                <td>
-                                                    <p>Working Knowledge</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h4>Ruby</h4>
-                                                </td>
-                                                <td>
-                                                    <span class="longline1"></span>
-                                                    <span class="shortline1"></span>
-                                                </td>
-                                                <td>
-                                                    <p>Basic Knowledge</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h4>CSS</h4>
-                                                </td>
-                                                <td>
-                                                    <span class="longline1"></span>
-                                                    <span class="shortline1"></span>
-                                                </td>
-                                                <td>
-                                                    <p>Basic Knowledge</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h4>C++</h4>
-                                                </td>
-                                                <td>
-                                                    <span class="longline1"></span>
-                                                    <span class="shortline1"></span>
-                                                </td>
-                                                <td>
-                                                    <p>Basic Knowledge</p>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    <h4>C</h4>
-                                                </td>
-                                                <td>
-                                                    <span class="longline1"></span>
-                                                    <span class="shortline1"></span>
-                                                </td>
-                                                <td>
-                                                    <p>Basic Knowledge</p>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /About -->
-    <!-- Portfolio -->
-    <div class="myportfolio" id="portfolio">
-        <h3 class="head-title text-center slideanim">My Portfolio</h3>
-        <section class="vertical" id="grid3d">
-            <div class="grid-wrap">
-                <div class="grid">
-                    <figure class="projects">
-                        <a class="slideanim" href="https://github.com/dimamo5/SDIS-SoundShare">
-                            <img src="images/soundshare.png" alt="SoundShare" />
-                        </a>
-                    </figure>
-                    <figure class="projects">
-                        <a class="slideanim" href="https://github.com/tomislaaaav/Acme-Electronics-Shop">
-                            <img src="images/cmov.jpg" alt="ACME Electronics Shop" />
-                        </a>
-                    </figure>
-                    <figure class="projects">
-                        <a class="slideanim" href="https://github.com/pedrofraga/BlockMan-FEUP">
-                            <img src="images/blockman.gif" alt="Block Man" />
-                        </a>
-                    </figure>
-                    <figure class="projects">
-                        <a class="slideanim" href="https://github.com/tomislaaaav/SDIS_Proj1">
-                            <img src="images/cloud.jpg" alt="Lan Cloud Service" />
-                        </a>
-                    </figure>
-                    <figure class="projects">
-                        <a class="slideanim" href="https://github.com/tomislaaaav/LAIG3">
-                            <img src="images/spangles.png" alt="Spangles" />
-                        </a>
-                    </figure>
-                    <figure class="projects">
-                        <a class="slideanim" href="https://github.com/Pigmoth69/SINF">
-                            <img src="images/sinf.jpg" alt="My Store" />
-                        </a>
-                    </figure>
-                </div>
-            </div>
-            <!-- /grid-wrap -->
-        </section>
-    </div>
-    <!-- /Portfolio -->
-    <!-- footer -->
-    <div class="contact-me" id="contact">
-        <h3 class="head-title text-center slideanim">Contact Me</h3>
-        <div class="container">
-            <footer>
-                <div class="row contacts">
-                    <br>
-                    <p class="text-center slideanim">If you have any doubts or want to say something, look below.</p>
-                    <div class="col-md-6 slideanim">
-                        <div class="contact-details">
-                            <form action="https://formspree.io/m_botelho8@hotmail.com" method="post">
-                                <div class="row">
-                                    <div class="col-sm-12 form-group">
-                                        <input class="form-control" id="name" name="name" placeholder="Name" type="text"
-                                            required>
-                                    </div>
-                                    <div class="col-sm-12 form-group">
-                                        <input class="form-control" id="email" name="email" placeholder="Email" type="email"
-                                            required>
-                                    </div>
-                                </div>
-                                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-                                <br>
-                                <div class="row">
-                                    <div class="col-sm-12 form-group">
-                                        <button class="btn btn-default btn-lg" type="submit">Send
-                                            <span class="glyphicon glyphicon-menu-right"></span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-6 slideanim">
-                        <div class="contact-info">
-                            <h4>Contact Info</h4>
-                            <div class="footer-info">
-                                <div>
-                                    <i class="glyphicon glyphicon-phone">
-                                    </i>
-                                    <p class="p1">+351 917 912 739</p>
-                                </div>
-                                <div>
-                                    <i class="glyphicon glyphicon-envelope">
-                                        <p class="p1">
-                                            <a href="mailto:jmbotelho95@gmail.com">jmbotelho95@gmail.com</a>
-                                        </p>
-                                    </i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                <div class="copyright">
-                    <p class="text-center">© 2016 My Profile. All Rights Reserved | Design by
-                        <a href="http://w3layouts.com">W3layouts</a>
+                <div class="col-md-8">
+                    <p>
+                        Hello, my name is Miguel Botelho and i am currently working as a Junior Software Engineer @
+                        Talkdesk. I'm a part of a hard-working team that mainly deals with external systems and
+                        communication from different internal systems to those same external ones. We also work with
+                        non relational databases, job processors and message queues.
+                        I am an enthusiastic engineer who likes to develop software and solutions that tailor different
+                        people and make a change in the world. Feel free to check my <a href="www.github.com/miguel-botelho">Github</a>
+                        where you can learn more about my past projects and experiences.
                     </p>
                 </div>
-                <a href="#myPage" title="To Top">
-                    <span class="glyphicon glyphicon-chevron-up"></span>
-                </a>
-            </footer>
+            </div>
         </div>
     </div>
-    <!-- /footer -->
-    <!-- js files -->
+    <!-- End #about -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- js files for banner slider -->
-    <script src="js/responsiveslides.min.js"></script>
-    <script>
-        $(window).load(function () {
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2018 – Present">
+                <h3>Talkdesk</h3>
+                <h4>Junior Software Engineer</h4>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
 
-            // Slideshow for banner
-            $("#slider").responsiveSlides({
-                maxwidth: 1920,
-                speed: 1000
-            });
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Faculty of Engineering of University of Porto</h3>
+            <span class="education-date">Sept 2013 - July 2018</span>
+            <h4>M.S.E. (integrated master) in Informatics and Computer Engineering. Average 15/20 values</h4>
+            <p>
+                <b>Main skills learned:</b>
+                <ul>
+                    <li>Algorithms and data structures</li>
+                    <li>Object oriented programming</li>
+                    <li>Computer architecture</li>
+                    <li>Relational databases</li>
+                    <li>Operating systems</li>
+                    <li>Software engineering</li>
+                    <li>Distributed systems</li>
+                    <li>Formal methods of software engineering</li>
+                    <li>Software architecture</li>
+                    <li>Parallel computing</li>
+                    <li>Distribution and integration technologies</li>
+                    <li>Mobile Computing</li>
+                </ul>
+            </p>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
 
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <a href="https://github.com/dimamo5/SDIS-SoundShare">
+                        <img src="images/soundshare.png" />
+                    </a>
+                    <!-- End .project-image -->
+                </div>
+                <!-- End .project -->
 
-        });
-    </script>
-    <!-- /js files for banner slider -->
-    <!-- js files for portfolio -->
-    <script src="js/classie.js"></script>
-    <script src="js/helper.js"></script>
-    <script src="js/grid3d.js"></script>
-    <script>
-        new grid3D(document.getElementById('grid3d'));
-    </script>
-    <!-- /js files for portfolio -->
-    <!-- js files for gallery -->
-    <script type="text/javascript" src="js/cobox.js"></script>
-    <!-- /js files for gallery -->
-    <!-- js for smooth scrolling -->
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <a href="https://github.com/miguel-botelho/SDIS_Proj1">
+                            <img src="images/cloud.jpg" />
+                        </a>
+                    </div>
+                    <!-- End .project-image -->
+                </div>
 
-    <script>
-        $(document).ready(function () {
-            // Add smooth scrolling to all links in navbar + footer link
-            $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <a href="https://github.com/Pigmoth69/SINF">
+                            <img src="images/sinf.jpg" />
+                        </a>
+                    </div>
+                    <!-- End .project-image -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
 
-                // Store hash
-                var hash = this.hash;
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>Node.js</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>Android</li>
+            <li>MongoDB</li>
+            <li>ElasticSearch</li>
+            <li>RabbitMQ</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
 
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 900, function () {
+    <div id="contact">
+        <h2>If you have any doubts or want to say something, look below.</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/jmbotelho95@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
 
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                });
-            });
-        })
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2018 Miguel Botelho
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/miguel-botelho" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/miguelbotelho95/" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/MiguelBotelho13" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
 
-    </script>
-    <!-- /js for smooth scrolling -->
-    <!-- js for sliding -->
-
-    <script>
-        $(window).scroll(function () {
-            $(".slideanim").each(function () {
-                var pos = $(this).offset().top;
-
-                var winTop = $(window).scrollTop();
-                if (pos < winTop + 600) {
-                    $(this).addClass("slide");
-                }
-            });
-        });
-    </script>
-    <!-- /js for sliding -->
-    <!-- /js files -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
 
 </html>
