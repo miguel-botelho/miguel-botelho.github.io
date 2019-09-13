@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tomislaaaav
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://miguelbotelho.me
+  * I am tomislaaaav (https://keybase.io/tomislaaaav) on keybase.
+  * I have a public key ASDmrLOZcMTra1LgKj65-JMYmi7BboxMuMp0O49dXctgEgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ddfbf78218d2682597efe04d27f468c45a74475341577465811524fee05bec790a",
+      "host": "keybase.io",
+      "kid": "0120e6acb39970c4eb6b52e02a3eb9f893189a2ec16e8c4cb8ca743b8f5d5dcb60120a",
+      "uid": "8c0f7ad949df951197415fc47a816e19",
+      "username": "tomislaaaav"
+    },
+    "merkle_root": {
+      "ctime": 1568378394,
+      "hash": "2e1c3af05bc5ddeac0da026fb1aa5aa414d6f71b8569e6ff4f53debe2a3c43fe6a2d027774e48b10dae0980df5f7b999d793282f8bc8967b6789d6debf9fc1f0",
+      "hash_meta": "357cb6d2790dd9cedae06a2ed4094eb8a8ddbb636d44ca3434825e99fe3b8e84",
+      "seqno": 7149314
+    },
+    "service": {
+      "entropy": "n9+PVx6vKaz+MrCKVwFUAI45",
+      "hostname": "miguelbotelho.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.1"
+  },
+  "ctime": 1568378402,
+  "expire_in": 504576000,
+  "prev": "e8b76a4230d2b7c3285af0254a6051642a6554327727b49ce1ed9874998532b0",
+  "seqno": 54,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5qyzmXDE62tS4Co+ufiTGJouwW6MTLjKdDuPXV3LYBIKp3BheWxvYWTESpcCNsQg6LdqQjDSt8MoWvAlSmBRZCplVDJ3J7Sc4e2YdJmFMrDEIFTDiozezqYETTtLYJAufN0i1VRZg/hHR2lEZmUSVu/YAgHCo3NpZ8RAPjn3cC3PaEKLY94L3StOBLI4TiJkrgSBcg+tGBWaxffiEXr/J3Wx8yiaoUw3vYtDBBipp6H8AWUzt5JaL2tOBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPDGD/YJxQDA319Tt+zR7hW9vsqmnr0NLK8SlrCm3xPVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tomislaaaav
+
+==================================================================
